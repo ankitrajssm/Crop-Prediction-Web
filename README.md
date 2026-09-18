@@ -26,8 +26,10 @@ This is a full-stack web application that predicts the best crop for a farmer to
  ┣ 📜 model.pkl                  # Trained Scikit-learn classifier
  ┣ 📜 standscaler.pkl            # Standardization weights
  ┗ 📜 minmaxscaler.pkl           # MinMax scaling weights
+```
+
 **How to Run the Project:**
 
 1. **Generate the Models:** Open and run all the cells in `Crop_Recommendation_System.ipynb`. This will train the machine learning model and automatically generate the required `model.pkl`, `standscaler.pkl`, and `minmaxscaler.pkl` files in your directory.
 2. **Start the Server:** Once the `.pkl` files are created, run the Flask backend by typing `python app.py` in your terminal.
-3. **View the App:** Open your web browser and go to `http://127.0.0.1:5000/` to use the platform.
+3. **View the App:** Open your web browser and go to `[http://127.0.0.1:5000/](http://127.0.0.1:5000/)` to use the platform.
